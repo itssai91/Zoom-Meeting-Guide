@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/colorOnPrimary"
     tools:context=".HowCaniLogin">
 
 
@@ -33,9 +34,10 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
+            android:background="#FFFFFF"
             android:fontFamily="@font/ubuntu"
             android:text="@string/to_log_in_you_will_use_the_email_and_password_that_you_simply_have_created_or_use_your_google_or_facebook_account_if_you_have_not_created_a_user_id_and_password_please_click_on_check_in_to_make_a_zoom_account_but_if_you_have_not_remembered_your_password_please_select_forgot_your_password"
-            android:textColor="@color/black"
+            android:textColor="?attr/colorOnSecondary"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

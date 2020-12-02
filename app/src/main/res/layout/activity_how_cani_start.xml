@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/colorOnPrimary"
     tools:context=".HowCaniStart">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -33,7 +34,7 @@
             android:layout_marginEnd="8dp"
             android:fontFamily="@font/ubuntu"
             android:text="@string/to_get_started_just_go_to_the_website_and_click_on_sign_up_from_there_you_can_enter_your_first_name_and_last_name_and_your_email_address_to_sign_up_additional_functionality_will_be_added_over_the_next_few_months_that_will_allow_you_to_use_your_nlu_username_and_password"
-            android:textColor="@color/black"
+            android:textColor="?attr/colorOnSecondary"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

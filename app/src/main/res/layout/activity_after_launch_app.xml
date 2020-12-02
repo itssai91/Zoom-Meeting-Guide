@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/colorOnPrimary"
     tools:context=".AfterLaunchApp">
 
 
@@ -35,7 +36,7 @@
             android:layout_marginEnd="8dp"
             android:fontFamily="@font/ubuntu"
             android:text="@string/after_launching_the_app_you_have_two_options_you_can_join_a_meeting_or_host_a_meeting_if_you_do_not_wish_to_log_in_and_just_want_to_join_a_meeting_in_progress_click_on_join_a_meeting_if_you_want_to_log_in_and_start_meeting_click_host_meeting_note_the_client_version_on_the_lower_right_corner_of_this_dialog_box"
-            android:textColor="@color/black"
+            android:textColor="?attr/colorOnSecondary"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

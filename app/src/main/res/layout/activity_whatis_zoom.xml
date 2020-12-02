@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/colorOnPrimary"
     tools:context=".WhatisZoom">
 
 
@@ -35,7 +36,7 @@
             android:layout_marginEnd="8dp"
             android:fontFamily="@font/ubuntu"
             android:text="@string/zoom_provides_the_primary_integrated_meeting_experience_platform_that_brings_together_hd_video_conferencing_mobility_and_web_meeting_as_a_free_cloud_service_so_you_will_have_crystal_clear_video_conversation_and_top_quality_screen_sharing_anytime_from_anywhere_with_up_to_25_people_or_rooms_it_is_available_for_windows_mac_ios_and_android_and_works_with_pstn_and_h_323_sip_room_systems_zoom_will_release_licensing_which_will_allow_additional_capacity_within_1st_quarter_of_2014"
-            android:textColor="@color/black"
+            android:textColor="?attr/colorOnSecondary"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

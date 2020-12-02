@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/colorOnPrimary"
     tools:context=".WherecanifindDesktop">
 
 
@@ -36,7 +37,7 @@
             android:layout_marginEnd="8dp"
             android:fontFamily="@font/ubuntu"
             android:text="@string/once_you_have_got_signed_up_or_logged_in_click_on_host_a_gathering_the_desktop_app_will_auto_download_alternatively_you_will_click_on_the_download_footer_link_at_website_for_ios_visit_the_apple_app_store_or_by_searching_zoom_for_android_visit_google_play_store_or_by_simply_searching_zoom_hd_meetings"
-            android:textColor="@color/black"
+            android:textColor="?attr/colorOnSecondary"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
