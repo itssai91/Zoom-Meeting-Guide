@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowdoistartMeeting">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_id"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:text="@string/how_do_i_start_meeting"
+            android:textColor="@color/mainColor"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adView" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/ubuntu"
+            android:text="@string/once_logged_in_you_will_see_the_main_dialog_box_as_shown_below_the_default_tab_is_home_you_can_click_on_video_meeting_to_start_an_instant_zoom_meeting_click_share_screen_meeting_to_start_a_meeting_while_sharing_your_desktop_or_application_click_on_schedule_to_setup_a_future_meeting_click_on_join_to_join_a_meeting_that_has_already_been_started_the_my_meeting_tab_shows_your_upcoming_scheduled_or_recuring_meetings_you_can_also_click_on_the_recorded_tab_to_view_previously_recorded_meetings_you_can_start_selecting_the_pre_scheduled_meeting_that_you_have_listed_in_your_upcoming_meetings_edit_you_can_edit_or_update_your_scheduled_meeting_delete_selecting_delete_will_permanently_delete_your_scheduled_meeting_copy_url_here_you_can_copy_your_scheduled_meeting_url_and_manually_paste_into_an_email_im_sms_etc_if_you_do_not_see_your_scheduled_meeting_click_the_refresh_tab_in_the_upper_right_hand_corner_to_update_refresh_the_meeting_list_additionally_make_sure_to_schedule_enough_time_for_your_meetings_will_end_as_scheduled"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
