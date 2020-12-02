@@ -4,10 +4,14 @@
     <string name="zoom_video_call_guide">Zoom Video Call Guide</string>
     <string name="start_guide">Start Guide</string>
 
-    <!--Google Ad Codes-->
+    <!--Google Ad Code-->
+    <string name="app_id">ca-app-pub-4157557049877666~8301569807</string>
+    <string name="banner_id">ca-app-pub-4157557049877666/1736161458</string>
+    <string name="interstial_id">ca-app-pub-4157557049877666/5500787275</string>
+    <!--Google Ad Code Test
     <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
     <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstial_id">ca-app-pub-3940256099942544/1033173712</string>-->
 
     <string name="zoom_provides_the_primary_integrated_meeting_experience_platform_that_brings_together_hd_video_conferencing_mobility_and_web_meeting_as_a_free_cloud_service_so_you_will_have_crystal_clear_video_conversation_and_top_quality_screen_sharing_anytime_from_anywhere_with_up_to_25_people_or_rooms_it_is_available_for_windows_mac_ios_and_android_and_works_with_pstn_and_h_323_sip_room_systems_zoom_will_release_licensing_which_will_allow_additional_capacity_within_1st_quarter_of_2014">Zoom provides the primary integrated meeting experience platform that brings together HD video conferencing, mobility, and web meeting as a free cloud service. So, you will have crystal-clear video conversation and top-quality screen sharing, anytime, from anywhere, with up to 25 people or rooms. It is available for windows, Mac, iOS and Android and works with PSTN and H.323/SIP room systems. ZOOM will release licensing which will allow additional capacity within 1st quarter of 2014.</string>
     <string name="to_get_started_just_go_to_the_website_and_click_on_sign_up_from_there_you_can_enter_your_first_name_and_last_name_and_your_email_address_to_sign_up_additional_functionality_will_be_added_over_the_next_few_months_that_will_allow_you_to_use_your_nlu_username_and_password">To get started, just go to the website and click on sign up. From there you can enter your first name and last name, and your email address to sign up. Additional functionality will be added over the next few months that will allow you to use your NLU username and password.</string>
