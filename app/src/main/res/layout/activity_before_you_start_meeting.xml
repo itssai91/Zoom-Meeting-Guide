@@ -4,22 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/colorOnPrimary"
-    tools:context=".HowCaniStart">
-
+    tools:context=".BeforeYouStartMeetingActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
             android:fontFamily="@font/roboto_slab_bold"
-            android:text="@string/how_can_i_start"
+            android:text="@string/before_you_start_meeting"
             android:textColor="@color/mainColor"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -27,32 +27,35 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
             android:fontFamily="@font/ubuntu"
-            android:text="@string/to_get_started_just_go_to_the_website_and_click_on_sign_up_from_there_you_can_enter_your_first_name_and_last_name_and_your_email_address_to_sign_up_additional_functionality_will_be_added_over_the_next_few_months_that_will_allow_you_to_use_your_nlu_username_and_password"
+            android:text="@string/once_you_have_started_or_joined_a_meeting_you_can_perform_the_following_actions_from_the_menu_bar_located_at_the_bottom_of_the_meeting_window_move_your_mouse_to_toggle_you_can_invite_more_people_to_join_by_email_im_sms_or_meeting_id_screen_share_your_desktop_or_specific_application_window_group_or_private_chat_participants_and_chat_mute_unmute_audio_stop_start_video_configure_your_settings_your_settings_leave_or_end_the_video"
             android:textColor="?attr/colorOnSecondary"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <com.google.android.gms.ads.AdView
             android:id="@+id/adView"
-            android:layout_width="0dp"
+            android:layout_width="411dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
             app:adSize="BANNER"
             app:adUnitId="@string/banner_id"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </ScrollView>

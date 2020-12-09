@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/customTheme">
-        <activity android:name=".HowdoistartMeeting"></activity>
+        <activity android:name=".RecordtheVideoCallActivity"></activity>
+        <activity android:name=".BeforeYouStartMeetingActivity" />
+        <activity android:name=".WhatCanDoinMettingActivity" />
+        <activity android:name=".HowdoistartMeeting" />
         <activity android:name=".WherecanifindDesktop" />
         <activity android:name=".AfterLaunchApp" />
         <activity android:name=".HowCaniLogin" />

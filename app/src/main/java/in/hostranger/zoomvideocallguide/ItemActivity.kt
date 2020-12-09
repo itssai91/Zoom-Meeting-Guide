@@ -81,6 +81,36 @@ class ItemActivity : LogActivity() {
             }
         }
 
+        beforeYoustrtMeetingBtn.setOnClickListener {
+            val intent = Intent(this, BeforeYouStartMeetingActivity::class.java)
+            startActivity(intent)
+            if (mInterstitialAd.isLoaded) {
+                mInterstitialAd.show()
+            } else {
+                Log.d("TAG", "The interstitial wasn't loaded yet.")
+            }
+        }
+
+        whtcandoinMettingBtn.setOnClickListener {
+            val intent = Intent(this, WhatCanDoinMettingActivity::class.java)
+            startActivity(intent)
+            if (mInterstitialAd.isLoaded) {
+                mInterstitialAd.show()
+            } else {
+                Log.d("TAG", "The interstitial wasn't loaded yet.")
+            }
+        }
+
+        recordtheVideoCallBtn.setOnClickListener {
+            val intent = Intent(this, RecordtheVideoCallActivity::class.java)
+            startActivity(intent)
+            if (mInterstitialAd.isLoaded) {
+                mInterstitialAd.show()
+            } else {
+                Log.d("TAG", "The interstitial wasn't loaded yet.")
+            }
+        }
+
 
     }
 }
